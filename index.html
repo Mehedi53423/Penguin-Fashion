@@ -7,10 +7,21 @@
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
     <title>Penguin Fashion</title>
 </head>
 <body>
-    <h1>Penguin Fashion</h1>
+    <h1 class="bg-slate-200">Penguin Fashion</h1>
 </body>
 </html>
